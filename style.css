@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body {
+  background: #00008b;
+  font-family: 'Poppins', sans-serif;
+}
+
+.heading{
+  text-align: center;
+  /* font-family: Yatra One; */
+  font-size: 2.2rem;
+  color: white;
+  text-decoration: underline;
+}
+
+.weather-container {
+  padding: 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 18px;
+  box-shadow: 2px 3px 30px gray;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+.location {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.temperature {
+  font-size: 48px;
+  font-weight: bold;
+  color: khaki;
+  margin-bottom: 10px;
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-size: 18px;
+  color: orange;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  /* font-family:'Josefin Sans', sans-serif; */
+
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  color: chartreuse;
+  /* font-family: 'Concert One', sans-serif; */
+
+.details div {
+  flex: 1;
+  margin: 10px;
+}
+
+  @media screen and (max-width: 490px) {
+  .details{
+    font-size: 10px;
+  }
+}
+
+.mains{
+  margin-top: -30px;
+}
